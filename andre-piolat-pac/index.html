@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Piolat PAC</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Main Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-content">
+
+            <!-- Logo area -->
+            <a href="index.html" class="logo-area">
+                <img src="img/logo.png" alt="Andre Piolat Logo" class="school-logo"
+                    style="width: 80px; height: 80px; object-fit: contain;">
+                <div class="school-name">
+                    <h1>Maison André-Piolat</h1>
+                    <p>
+                        <span class="lang-en">Parent Advisory Council</span>
+                        <span class="lang-fr">Association des Parents d'Élèves (APÉ)</span>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <span class="lang-en">Home</span>
+                            <span class="lang-fr">Accueil</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="programs.html" class="nav-link">
+                            <span class="lang-en">Programs / Events</span>
+                            <span class="lang-fr">Programmes / Événements</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="after-school.html" class="dropdown-link">
+                                    <span class="lang-en">After school programs</span>
+                                    <span class="lang-fr">Programmes parascolaires</span>
+                                </a></li>
+                            <li><a href="hot-lunch.html" class="dropdown-link">
+                                    <span class="lang-en">Hot lunch</span>
+                                    <span class="lang-fr">Repas chaud</span>
+                                </a></li>
+                            <li class="nested-dropdown">
+                                <a href="school-events.html" class="dropdown-link">
+                                    <span class="lang-en">School events &rarr;</span>
+                                    <span class="lang-fr">Événements scolaires &rarr;</span>
+                                </a>
+                                <ul class="nested-menu">
+                                    <li><a href="past-events.html" class="dropdown-link">
+                                            <span class="lang-en">Past school events</span>
+                                            <span class="lang-fr">Événements scolaires passés</span>
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="renovation-2026.html" class="dropdown-link">
+                                    <span class="lang-en">Renovation 2026</span>
+                                    <span class="lang-fr">Rénovation 2026</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            <span class="lang-en">About PAC</span>
+                            <span class="lang-fr">À propos de l’APÉ</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="meeting-schedule.html" class="dropdown-link">
+                                    <span class="lang-en">Meeting schedule</span>
+                                    <span class="lang-fr">Calendrier des réunions</span>
+                                </a></li>
+                            <li><a href="minutes.html" class="dropdown-link">
+                                    <span class="lang-en">Minutes of meetings</span>
+                                    <span class="lang-fr">Procès-verbaux des réunions</span>
+                                </a></li>
+                            <li><a href="who-we-are.html" class="dropdown-link">
+                                    <span class="lang-en">Who we are</span>
+                                    <span class="lang-fr">Qui sommes-nous</span>
+                                </a></li>
+                            <li><a href="get-involved.html" class="dropdown-link">
+                                    <span class="lang-en">Get involved</span>
+                                    <span class="lang-fr">Impliquez-vous</span>
+                                </a></li>
+                            <li><a href="fundraisers.html" class="dropdown-link">
+                                    <span class="lang-en">Fundraisers</span>
+                                    <span class="lang-fr">Levées de fonds</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="resources.html" class="nav-link">
+                            <span class="lang-en">General info / Resources</span>
+                            <span class="lang-fr">Informations générales / Ressources</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="calendar.html" class="dropdown-link">
+                                    <span class="lang-en">School calendar / Schedule</span>
+                                    <span class="lang-fr">Calendrier scolaire / Horaire</span>
+                                </a></li>
+                            <li><a href="procedures.html" class="dropdown-link">
+                                    <span class="lang-en">Procedures</span>
+                                    <span class="lang-fr">Procédures</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" style="color: var(--accent-color);">
+                            <span class="lang-en">Contact Us</span>
+                            <span class="lang-fr">Contactez-nous</span>
+                        </a>
+                    </li>
+                    <li class="nav-item lang-toggle-item">
+                        <button id="langToggle" class="lang-switch-btn nav-lang-btn">Fr / En</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner (Home) -->
+    <section class="hero">
+        <div class="container">
+            <h2>
+                <span class="lang-en">Welcome to Andre Piolat</span>
+                <span class="lang-fr">Bienvenue à André-Piolat</span>
+            </h2>
+            <p>
+                <span class="lang-en">Supporting our students, teachers, and bilingual community.</span>
+                <span class="lang-fr">Soutenir nos élèves, nos enseignants et notre communauté bilingue.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Renovation Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">Renovation 2026</span>
+                <span class="lang-fr">Rénovation 2026</span>
+            </h2>
+
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
+                <div
+                    style="flex: 1; min-width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                    <img src="img/renovation.jpg" alt="Renovation"
+                        style="width: 100%; display: block; object-fit: cover;">
+                </div>
+                <div style="flex: 1; min-width: 300px; line-height: 1.8; color: var(--text-dark);">
+                    <p class="lang-en" style="margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="lang-fr" style="margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <p class="lang-en">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+                    <p class="lang-fr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">Get Involved</span>
+                <span class="lang-fr">Impliquez-vous</span>
+            </h2>
+
+            <div
+                style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start; flex-direction: row-reverse;">
+                <div
+                    style="flex: 1; min-width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                    <img src="img/get-involved.jpg" alt="Get Involved"
+                        style="width: 100%; display: block; object-fit: cover;">
+                </div>
+                <div style="flex: 1; min-width: 300px; line-height: 1.8; color: var(--text-dark);">
+                    <p class="lang-en" style="margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas
+                        tellus rutrum tellus pellentesque eu tincidunt tortor. Amet nisl suscipit adipiscing bibendum
+                        est ultricies integer quis. At volutpat diam ut venenatis tellus in metus.</p>
+                    <p class="lang-fr" style="margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas
+                        tellus rutrum tellus pellentesque eu tincidunt tortor. Amet nisl suscipit adipiscing bibendum
+                        est ultricies integer quis. At volutpat diam ut venenatis tellus in metus.</p>
+
+                    <a href="get-involved.html"
+                        style="display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: var(--accent-color); color: var(--text-dark); font-weight: bold; border-radius: 4px; text-decoration: none;">
+                        <span class="lang-en">Read More</span>
+                        <span class="lang-fr">Lire la suite</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">News & Events</span>
+                <span class="lang-fr">Actualités et Événements</span>
+            </h2>
+
+            <div
+                style="margin-bottom: 3rem; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8;">
+                <p class="lang-en">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi est sit amet
+                    facilisis magna etiam. Dictum at tempor commodo ullamcorper a lacus vestibulum. Magna fringilla urna
+                    porttitor rhoncus dolor purus non.</p>
+                <p class="lang-fr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi est sit amet
+                    facilisis magna etiam. Dictum at tempor commodo ullamcorper a lacus vestibulum. Magna fringilla urna
+                    porttitor rhoncus dolor purus non.</p>
+            </div>
+
+            <div class="events-wrapper"
+                style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; max-width: 100%;">
+
+                <!-- Event Image 1 -->
+                <div
+                    style="flex: 1; min-width: 300px; max-width: 500px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); background: var(--bg-light); display: flex; flex-direction: column;">
+                    <img src="img/events-1.jpg" alt="Events" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem; flex-grow: 1;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">
+                            <span class="lang-en">Upcoming School Event</span>
+                            <span class="lang-fr">Événement Scolaire à Venir</span>
+                        </h3>
+                        <p class="lang-en" style="color: var(--text-light); margin-bottom: 1rem;">[Event details will be
+                            posted here. Date, Time, Location, and Description.]</p>
+                        <p class="lang-fr" style="color: var(--text-light); margin-bottom: 1rem;">[Les détails de
+                            l'événement seront affichés ici. Date, Heure, Lieu et Description.]</p>
+                    </div>
+                </div>
+
+                <!-- Event Image 2 -->
+                <div
+                    style="flex: 1; min-width: 300px; max-width: 500px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); background: var(--bg-light); display: flex; flex-direction: column;">
+                    <img src="img/events-2.jpg" alt="Past Events"
+                        style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem; flex-grow: 1;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">
+                            <span class="lang-en">Community Gatherings</span>
+                            <span class="lang-fr">Rassemblements Communautaires</span>
+                        </h3>
+                        <p class="lang-en" style="color: var(--text-light); margin-bottom: 1rem;">[Community gathering
+                            info will be posted here. Updates, Recaps, and Photos.]</p>
+                        <p class="lang-fr" style="color: var(--text-light); margin-bottom: 1rem;">[Les informations sur
+                            les rassemblements seront affichées ici. Mises à jour, Résumés et Photos.]</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Maison André-Piolat PAC</div>
+            <p>
+                <span class="lang-en">Supporting the French education community in North Vancouver.</span>
+                <span class="lang-fr">Soutenir la communauté éducative francophone de Vancouver Nord.</span>
+            </p>
+            <div class="footer-links">
+                <a href="contact.html">
+                    <span class="lang-en">Contact us</span>
+                    <span class="lang-fr">Contactez-nous</span>
+                </a>
+                <a href="#top">
+                    <span class="lang-en">Back to Top</span>
+                    <span class="lang-fr">Retour en haut</span>
+                </a>
+            </div>
+            <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.7;">
+                &copy; <span id="year">2026</span> Andre Piolat PAC / APÉ.
+                <span class="lang-en">All rights reserved.</span>
+                <span class="lang-fr">Tous droits réservés.</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
