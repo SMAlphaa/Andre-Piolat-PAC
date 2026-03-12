@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Piolat PAC</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-content">
+
+            <!-- Logo area -->
+            <a href="index.html" class="logo-area">
+                <img src="img/logo.png" alt="Andre Piolat Logo" class="school-logo"
+                    style="width: 80px; height: 80px; object-fit: contain;">
+                <div class="school-name">
+                    <h1>Maison André-Piolat</h1>
+                    <p>
+                        <span class="lang-en">Parent Advisory Council</span>
+                        <span class="lang-fr">Association des Parents d'Élèves (APÉ)</span>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Mobile Menu & Lang Toggle -->
+            <div class="mobile-controls">
+                <button class="lang-switch-btn lang-toggle-mobile">Fr / En</button>
+                <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <span class="lang-en">Home</span>
+                            <span class="lang-fr">Accueil</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="programs.html" class="nav-link">
+                            <span class="lang-en">Programs / Events</span>
+                            <span class="lang-fr">Programmes / Événements</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="after-school.html" class="dropdown-link">
+                                    <span class="lang-en">After school programs</span>
+                                    <span class="lang-fr">Programmes parascolaires</span>
+                                </a></li>
+                            <li><a href="hot-lunch.html" class="dropdown-link">
+                                    <span class="lang-en">Hot lunch</span>
+                                    <span class="lang-fr">Repas chaud</span>
+                                </a></li>
+                            <li class="nested-dropdown">
+                                <a href="school-events.html" class="dropdown-link">
+                                    <span class="lang-en">School events &rarr;</span>
+                                    <span class="lang-fr">Événements scolaires &rarr;</span>
+                                </a>
+                                <ul class="nested-menu">
+                                    <li><a href="past-events.html" class="dropdown-link">
+                                            <span class="lang-en">Past school events</span>
+                                            <span class="lang-fr">Événements scolaires passés</span>
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="renovation-2026.html" class="dropdown-link">
+                                    <span class="lang-en">Renovation 2026</span>
+                                    <span class="lang-fr">Rénovation 2026</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            <span class="lang-en">About PAC</span>
+                            <span class="lang-fr">À propos de l’APÉ</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="meeting-schedule.html" class="dropdown-link">
+                                    <span class="lang-en">Meeting schedule</span>
+                                    <span class="lang-fr">Calendrier des réunions</span>
+                                </a></li>
+                            <li><a href="minutes.html" class="dropdown-link">
+                                    <span class="lang-en">Minutes of meetings</span>
+                                    <span class="lang-fr">Procès-verbaux des réunions</span>
+                                </a></li>
+                            <li><a href="who-we-are.html" class="dropdown-link">
+                                    <span class="lang-en">Who we are</span>
+                                    <span class="lang-fr">Qui sommes-nous</span>
+                                </a></li>
+                            <li><a href="get-involved.html" class="dropdown-link">
+                                    <span class="lang-en">Get involved</span>
+                                    <span class="lang-fr">Impliquez-vous</span>
+                                </a></li>
+                            <li><a href="fundraisers.html" class="dropdown-link">
+                                    <span class="lang-en">Fundraisers</span>
+                                    <span class="lang-fr">Levées de fonds</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="resources.html" class="nav-link">
+                            <span class="lang-en">General info / Resources</span>
+                            <span class="lang-fr">Informations générales / Ressources</span>
+                            &#9662;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="calendar.html" class="dropdown-link">
+                                    <span class="lang-en">School calendar / Schedule</span>
+                                    <span class="lang-fr">Calendrier scolaire / Horaire</span>
+                                </a></li>
+                            <li><a href="procedures.html" class="dropdown-link">
+                                    <span class="lang-en">Procedures</span>
+                                    <span class="lang-fr">Procédures</span>
+                                </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" style="color: var(--accent-color);">
+                            <span class="lang-en">Contact Us</span>
+                            <span class="lang-fr">Contactez-nous</span>
+                        </a>
+                    </li>
+                    <li class="nav-item lang-toggle-item lang-toggle-desktop">
+                        <button class="lang-switch-btn nav-lang-btn">Fr / En</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    <!-- Page Content -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">Past school events</span>
+                <span class="lang-fr">Événements scolaires passés</span>
+            </h2>
+            <div style="display: flex; gap: 3rem; flex-wrap: wrap; align-items: center; margin-top: 2rem; margin-bottom: 2rem;">
+                <div style="flex: 1; min-width: 300px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border: 4px solid var(--white);">
+<img src="img/events-2.jpg" alt="Past Events" style="width: 100%; display: block; object-fit: cover; max-height: 500px; border-radius: 8px;">
+                </div>
+                <div style="flex: 1; min-width: 300px; line-height: 1.8; color: var(--text-dark);">
+                    <p class="lang-en" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                        This is the English placeholder text for <strong>Past school events</strong>. It replaces the previous generic Latin dummy text so you can clearly see the translation working when you toggle the languages!
+                    </p>
+                    <p class="lang-en" style="margin-bottom: 1rem;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi est sit amet facilisis magna etiam. Dictum at tempor commodo ullamcorper a lacus vestibulum. Magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                    
+                    <p class="lang-fr" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                        Ceci est le texte de remplacement en français pour <strong>Événements scolaires passés</strong>. Il remplace l'ancien texte factice générique en latin afin que vous puissiez clairement voir la traduction fonctionner lorsque vous basculez les langues!
+                    </p>
+                    <p class="lang-fr" style="margin-bottom: 1rem;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi est sit amet facilisis magna etiam. Dictum at tempor commodo ullamcorper a lacus vestibulum. Magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="section section-alt" style="background-color: #f8fafc; padding: 4rem 0;">
+        <div class="container">
+            <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem; font-size: 2rem; position: relative; padding-bottom: 1rem;">
+                <span class="lang-en">Highlights & Memories</span>
+                <span class="lang-fr">Faits Saillants et Souvenirs</span>
+            </h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div style="border-radius: 12px; overflow: hidden; height: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80" alt="Gallery" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                </div>
+                <div style="border-radius: 12px; overflow: hidden; height: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Gallery" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                </div>
+                <div style="border-radius: 12px; overflow: hidden; height: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=80" alt="Gallery" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Area -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Maison André-Piolat PAC</div>
+            <p>
+                <span class="lang-en">Supporting the French education community in North Vancouver.</span>
+                <span class="lang-fr">Soutenir la communauté éducative francophone de Vancouver Nord.</span>
+            </p>
+            <div class="footer-links">
+                <a href="https://andrepiolat.csf.bc.ca/" target="_blank">
+                    <span class="lang-en">School Website</span>
+                    <span class="lang-fr">Site Web de l'École</span>
+                </a>
+                <a href="https://www.facebook.com/AndrePiolatParents" target="_blank">
+                    Facebook
+                </a>
+                <a href="contact.html">
+                    <span class="lang-en">Contact us</span>
+                    <span class="lang-fr">Contactez-nous</span>
+                </a>
+                <a href="#top">
+                    <span class="lang-en">Back to Top</span>
+                    <span class="lang-fr">Retour en haut</span>
+                </a>
+            </div>
+            <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.7;">
+                &copy; <span id="year">2026</span> Andre Piolat PAC / APÉ.
+                <span class="lang-en">All rights reserved.</span>
+                <span class="lang-fr">Tous droits réservés.</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYe;
+    </script>
+</body>
+
+</html>
